@@ -2,16 +2,16 @@
 
 ## Authors
 
-* Dr. Adarsh Krishnamurthy *(adarsh@iastate.edu)*
-* Onur R. Bingol *(orbingol@iastate.edu)*
-* Sambit Ghadai *(sambitg@iastate.edu)*
-* Aditya Balu *(baditya@iastate.edu)*
+* Dr. Adarsh Krishnamurthy [@k-adarsh](https://github.com/k-adarsh)
+* Onur R. Bingol [@orbingol](https://github.com/orbingol)
+* Sambit Ghadai [@sambitg92](https://github.com/sambit92)
+* Aditya Balu [@adityabalu](https://github.com/adityabalu)
 * Gavin Young
 * Xin Huang
 
 ## Introduction
 
-**GPU Accelerated Voxelization Framework** of 3D CAD models.
+**GPU Accelerated Voxelization Framework** for 3D CAD models.
 
 GPView voxelizes CAD models with a hybrid resolution. Supported CAD models are Wavefront **(.obj)** file and **.off** file formats. Output is in the form of binary **.raw** files with contiguous array.
 
