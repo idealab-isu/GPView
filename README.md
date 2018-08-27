@@ -23,8 +23,8 @@ For more details visit [IDEALab](http://web.me.iastate.edu/idealab/index.html) w
 
 ### Publications
 
-1. Sambit Ghadai, Aditya Balu, Soumik Sarkar, Adarsh Krishnamurthy; [Learning localized features in 3D CAD models for manufacturability analysis of drilled holes](https://www.sciencedirect.com/science/article/pii/S0167839618300384), Computer Aided Geometric Design, 62:263�275, 2018.
-2. Gavin Young, Adarsh Krishnamurthy; [GPU-accelerated generation and rendering of multi-level voxel representations of solid models](https://www.sciencedirect.com/science/article/pii/S009784931830102X), Computers & Graphics, 75:11�24, 2018.
+1. Sambit Ghadai, Aditya Balu, Soumik Sarkar, Adarsh Krishnamurthy; [Learning localized features in 3D CAD models for manufacturability analysis of drilled holes](https://www.sciencedirect.com/science/article/pii/S0167839618300384), Computer Aided Geometric Design, 62:263-275, 2018.
+2. Gavin Young, Adarsh Krishnamurthy; [GPU-accelerated generation and rendering of multi-level voxel representations of solid models](https://www.sciencedirect.com/science/article/pii/S009784931830102X), Computers & Graphics, 75:11-24, 2018.
 3. Sambit Ghadai, Xian Lee, Aditya Balu, Soumik Sarkar, Adarsh Krishnamurthy; [Multi-Resolution 3D Convolutional Neural Networks for Object Recognition](https://arxiv.org/abs/1805.12254), NVIDIA GPU Technology Conference, arXiv:1805.12254, 2018.
 4. Sambit Ghadai, Aditya Balu, Adarsh Krishnamurthy, Soumik Sarkar; [Learning and visualizing localized geometric features using 3D-CNN: An application to manufacturability analysis of drilled holes](https://arxiv.org/abs/1711.04851), NIPS Symposium on Interpretable Machine Learning, 2017.
 
