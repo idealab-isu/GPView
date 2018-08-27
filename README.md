@@ -19,8 +19,6 @@ Level1 resolution is a coarse level of voxelization and Level2 is a finer level 
 
 For more details visit [IDEALab](http://web.me.iastate.edu/idealab/index.html) website.
 
-(Paper link coming soon).
-
 ### Publications
 
 1. Sambit Ghadai, Aditya Balu, Soumik Sarkar, Adarsh Krishnamurthy; [Learning localized features in 3D CAD models for manufacturability analysis of drilled holes](https://www.sciencedirect.com/science/article/pii/S0167839618300384), Computer Aided Geometric Design, 62:263-275, 2018.
