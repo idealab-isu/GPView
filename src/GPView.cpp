@@ -1300,6 +1300,10 @@ void KeyPress(unsigned char key, int x, int y)
 	case 'v':
 	case 'V':
 		glParam->drawVoxels = !(glParam->drawVoxels);
+#ifdef DISPLAYLISTS
+		if (glParam->drawVoxels)
+			objects[0]->GenVoxelsDisplayLists(glParam);
+#endif
 		break;
 	case '1':
 	case '!':

@@ -1642,9 +1642,9 @@ void Object::ClassifyInOut2x(GLParameters* glParam)
 		std::chrono::duration<double> ch_initTime = initTime - initialTime;
 		std::chrono::duration<double> ch_sliceTime = sliceTime - initTime;
 		std::chrono::duration<double> ch_totalTime = totalTime - initialTime;
-		cout << "Init  Time         : " << ch_initTime.count()<< endl;
-		cout << "Slice Time         : " << ch_sliceTime.count() / numDivZ << endl;
-		cout << "InOut Total Time   : " << ch_totalTime.count() << endl;
+		cout << "Init  Time             : " << ch_initTime.count()<< endl;
+		cout << "Slice Time             : " << ch_sliceTime.count() / numDivZ << endl;
+		cout << "InOut Total Time       : " << ch_totalTime.count() << endl;
 	}
 }
 
@@ -3007,8 +3007,8 @@ void Object::SaveVoxelization(GLParameters* glParam)
 
 	// Write Voxel Config File
 	voxelConfigFile << fileNamePrefix << endl;
-	voxelConfigFile << this->bBoxMin[0] << this->bBoxMin[1] << this->bBoxMin[2] << endl;
-	voxelConfigFile << this->bBoxMax[0] << this->bBoxMax[1] << this->bBoxMax[2] << endl;
+	voxelConfigFile << this->bBoxMin[0] << "\t" << this->bBoxMin[1] << "\t" << this->bBoxMin[2] << endl;
+	voxelConfigFile << this->bBoxMax[0] << "\t" << this->bBoxMax[1] << "\t" << this->bBoxMax[2] << endl;
 	voxelConfigFile << numDivX << "\t" << numDivY << "\t" << numDivZ << endl;
 	voxelConfigFile << this->voxelData->gridSizeX << "\t" << this->voxelData->gridSizeY << "\t" << this->voxelData->gridSizeZ << endl;
 	voxelConfigFile << this->voxelData->numLevel1InsideVoxels << endl;
