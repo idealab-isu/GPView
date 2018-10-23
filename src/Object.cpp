@@ -3281,6 +3281,7 @@ void Object::PerformVoxelization(GLParameters* glParam, int bufferSize)
 		// Allocate level2 memory
 		int numBoundary = this->voxelData->boundaryIndex.size();
 		this->voxelData->level2InOut = new inOutDType[numBoundary * numDivX2 * numDivY2 * numDivZ2];
+		memset(this->voxelData->level2InOut, 0.0, numDivX2 * numDivY2 * numDivZ2 * sizeof(inOutDType));
 
 		// Classify inside outside for level 2 for all boundary voxels
 #ifdef INOUT
